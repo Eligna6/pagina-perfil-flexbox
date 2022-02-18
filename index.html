@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de perfil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="nav">
+      <h1 class="nav-title">Perfil</h1>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#" class="active">My Profile</a></li>
+        <li><a href="#">Encontrar conexiones</a></li>
+        <li><button type="button" class="btn">Cerrar sesión</button></li>
+      </ul>
+    </div>
+    <div class="flex-row">
+      <main class="flex-column">
+        <!-- MAIN CARD -->
+        <div class="card" id="main-card">
+          <div class="card-part" id="main-card-banner">
+            <img
+              class="pic"
+              id="main-card-user-pic"
+              src="./images/igna-m.jpg"
+              alt="Default user photo"
+            />
+          </div>
+          <div class="card-part" id="main-card-content">
+            <h2>Igna Torres</h2>
+            <img
+              class="icon"
+              id="map-marker"
+              src="./images/icons/map-marker.png"
+              alt="Map marker"
+            />
+            <h3 id="city-name">Santiago de Chile</h3>
+            <p>
+              Full Stack Developer 👨‍💻 | Musician 🎼 <br />| Traditional
+              Astrologer 🧙‍♂️
+              <br />
+              Son of God 🙏, grateful 4 Life!
+            </p>
+            <p>
+              <a href="#">
+                <img
+                  class="icon"
+                  id="gear-icon"
+                  src="./images/icons/gear.png"
+                  alt="Gear logo"
+                />edit profile</a
+              >
+            </p>
+          </div>
+        </div>
+        <!--EDUCATION CARD-->
+        <div class="card" id="ed-card">
+          <div class="card-part card-banner" id="ed-card-banner">
+            <h4>Education</h4>
+          </div>
+          <div class="card-part card-content" id="ed-card-content">
+            <h3>Coding Dojo - Full Stack Bootcamp</h3>
+            <p>February 14 - May 23, 2022</p>
+            <h4>Triple black belt in Python, MERN & Java...</h4>
+          </div>
+        </div>
+      </main>
+      <section class="flex-column" id="column2">
+        <!-- REQUESTS CARD-->
+        <div class="card" id="req-card">
+          <div
+            class="card-part card-banner number-card-banner"
+            id="req-card-banner"
+          >
+            <div class="connections-circle">
+              <span class="circle-number">2</span>
+            </div>
+            <h4 class="banner-title">Connection Requests</h4>
+          </div>
+          <div class="card-part card-content" id="req-card-content">
+            <ul>
+              <li class="flex-list">
+                <div id="flex-list-col1">
+                  <img
+                    class="mini-avatar"
+                    src="./images/todd-s.jpg"
+                    alt="Todd E photo"
+                  />
+                  <h4>Todd E</h4>
+                </div>
+                <div id="flex-list-col2">
+                  <img
+                    class="mini-avatar accept-circle accept-close-circle"
+                    src="./images/icons/accept-circle.png"
+                    alt="Accept circle"
+                  />
+                  <img
+                    class="mini-avatar close-circle accept-close-circle"
+                    src="./images/icons/close-circle.png"
+                    alt="Close circle"
+                  />
+                </div>
+              </li>
+              <li class="flex-list">
+                <div id="flex-list-col1">
+                  <img
+                    class="mini-avatar"
+                    src="./images/phil-s.jpg"
+                    alt="Phil K photo"
+                  />
+                  <h4>Phil K</h4>
+                </div>
+                <div id="flex-list-col2">
+                  <img
+                    class="mini-avatar accept-circle accept-close-circle"
+                    src="./images/icons/accept-circle.png"
+                    alt="Accept circle"
+                  />
+                  <img
+                    class="mini-avatar close-circle accept-close-circle"
+                    src="./images/icons/close-circle.png"
+                    alt="Close circle"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- CONNECTIONS CARD -->
+        <div class="card" id="conn-card">
+          <div
+            class="card-part card-banner number-card-banner"
+            id="conn-card-banner"
+          >
+            <div class="connections-circle oval">
+              <span class="circle-number">500+</span>
+            </div>
+            <h4 class="banner-title">Your Connections</h4>
+          </div>
+          <div class="card-part card-content" id="conn-card-content">
+            <ul>
+              <li class="flex-list">
+                <div id="flex-list-col1">
+                  <img
+                    class="mini-avatar"
+                    src="./images/adrien-s.jpg"
+                    alt="Adrien D photo"
+                  />
+                  <h4>Adrien D</h4>
+                </div>
+              </li>
+              <li class="flex-list">
+                <div id="flex-list-col1">
+                  <img
+                    class="mini-avatar"
+                    src="./images/anne-s.jpg"
+                    alt="Anne J photo"
+                  />
+                  <h4>Anne J</h4>
+                </div>
+              </li>
+              <li class="flex-list">
+                <div id="flex-list-col1">
+                  <img
+                    class="mini-avatar"
+                    src="./images/alayne-s.jpg"
+                    alt="Alayne T photo"
+                  />
+                  <h4>Alayne T</h4>
+                </div>
+              </li>
+              <li class="flex-list">
+                <div id="flex-list-col1">
+                  <img
+                    class="mini-avatar"
+                    src="./images/arry-s.jpg"
+                    alt="Arry Y photo"
+                  />
+                  <h4>Arry Y</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer" id="conn-card-footer">
+              <p><a href="#">View More</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

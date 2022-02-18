@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Neue", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*FLEX*/
+.flex-column {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+}
+.flex-row {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+/*TAGS*/
+ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+div ul li {
+    list-style: none;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+div p {
+    margin-bottom: 8px;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #333333;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    margin: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    border: 2px solid black;
+    background-color: #2b78e4;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    -webkit-box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 1);
+}
+
+/*MAIN CARD*/
+#main-card {
+    margin: 10px auto;
+    padding: 0px;
+    width: 25rem;
+}
+
+#main-card-banner {
+    background-color: #17a2b8;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+}
+
+#main-card-content {
+    border: 2px solid lightslategray;
+    border-top: 0px;
+    border-radius: 0 0 20px 20px;
+    padding: 15px 30px;
+    height: 200px;
+}
+
+#main-card-user-pic {
+    width: 80px;
+    height: 80px;
+    border: 4px solid lightgray;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.4);
+}
+
+#city-name {
+    display: inline-block;
+}
+
+.card-part {
+    padding: 10px 20px;
+}
+
+#map-marker {
+    width: 10px;
+    margin-right: 7px;
+    margin: 5px 7px 0px 0px;
+}
+
+.icon {
+    width: 10px;
+}
+
+#gear-icon {
+    margin-right: 5px;
+    text-decoration: underline;
+    color: #17a2b8;
+}
+
+/*EDUCATION CARD*/
+#ed-card {
+    margin: 10px auto;
+    padding: 0px;
+    width: 25rem;
+}
+.card-banner {
+    border-color: 2px solid black;
+    background-color: #333333;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+.card-content {
+    border: 2px solid lightslategray;
+    border-top: 0px;
+    border-radius: 0 0 20px 20px;
+    padding: 15px 30px;
+}
+
+/*REQUESTS CARD*/
+#req-card-content, #conn-card-content {
+    padding: 10px;
+}
+.number-card-banner{
+    display: flex;
+    align-items: center;
+}
+.connections-circle {
+    text-decoration: none;
+    background-color: #cccccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+.circle-number {
+    position: relative;
+    top: 7px;
+    right: 1px;
+}
+.mini-avatar {
+    width: 40px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.flex-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#flex-list-col1, #flex-list-col2 {
+    display: flex;
+    align-items: center;
+}
+/* CONNECTIONS CARD */
+.card {
+    margin: 10px auto;
+    padding: 0px;
+    width: 15rem;
+}
+#conn-card-content {
+    border-radius: 0;
+}
+#conn-card-footer {
+    padding: 5px 20px;
+    border: 2px solid lightslategray;
+    border-top: 0;
+    border-radius: 0 0 20px 20px;
+}
+.oval {
+    width: 40px;
+}
+
+
+
+
+
